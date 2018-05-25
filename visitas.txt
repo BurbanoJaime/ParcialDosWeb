@@ -1,4 +1,5 @@
-Numero de visitas desde que se inició el servidor:
-    Inicio: 0
-    Proyectos: 0
-    Contacto: 0
+{
+"Inicio": 1;
+"Proyectos": undefined;
+"Contacto": undefined;
+}
