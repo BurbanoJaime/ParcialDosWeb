@@ -13,6 +13,10 @@ app.use(express.static('public'));
 
 app.listen(5000);
 
+var inicio = 0;
+var proyectos = 0;
+var contacto = 0;
+
 app.get('/',(req,res) =>{
     res.render('index');
 });
