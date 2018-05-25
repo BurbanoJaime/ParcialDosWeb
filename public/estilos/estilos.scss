@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500');
+$fuente: 'Ubuntu',
+sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.index {
+    background: rgb(236, 10, 161);
+}
+
+.uno{
+    background: rgb(185, 0, 124); 
+
+}
+.dos{
+    background: rgb(119, 2, 80); 
+
+
+}
+h1 {
+    font-weight: bold;
+    color: white;
+    font-family: $fuente;
+    font-size: 15em;
+    text-align: center;
+    margin-top: 15vw;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+h2 {
+    font-weight: 400;
+    color: white;
+    font-family: $fuente;
+    font-size: 2em;
+}
+
+span {
+    color: white;
+    font-family: $fuente;
+    font-size: 2em;
+    margin: 0 10px;
+    font-weight: 300;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-top: 15vw;
+
+    a {
+        text-decoration: none;
+        font-weight: .5em;
+        color: white;
+        font-family: $fuente;
+        margin: 0 20px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
